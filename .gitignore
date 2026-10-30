@@ -1,0 +1,7 @@
+build/
+package/
+dll/target/
+fxr/node_modules/
+__pycache__/
+dll/doomgeneric/
+wad/

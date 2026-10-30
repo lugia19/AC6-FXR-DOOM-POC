@@ -1,0 +1,13 @@
+profileVersion = "v1"
+
+# me3 profile for the prebuilt mod: keep it next to the mod folder, fxr_doom.dll and doom/.
+
+[[supports]]
+game = "armoredcore6"
+
+[[packages]]
+id = "fxr-doom"
+path = 'mod'
+
+[[natives]]
+path = 'fxr_doom.dll'

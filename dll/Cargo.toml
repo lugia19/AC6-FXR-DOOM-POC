@@ -1,0 +1,16 @@
+[package]
+name = "fxr_doom"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+retour = "0.3"
+
+[profile.release]
+panic = "abort"
+
+[build-dependencies]
+cc = "1"
